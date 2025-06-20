@@ -220,4 +220,7 @@ app.get('/', (req, res) => {
 
 app.listen(port, () => {
     console.log(`Sports items is running on port : ${port}`)
-})
+});
+
+// required for Vercel
+module.exports = app;
