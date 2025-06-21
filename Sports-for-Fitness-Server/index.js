@@ -210,6 +210,8 @@ run().catch(console.dir);
 
 
 
+console.log("SPORT_DB:", process.env.SPORT_DB);
+console.log("SPORT_PASS:", process.env.SPORT_PASS);
 
 
 //

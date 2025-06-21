@@ -10,7 +10,7 @@ const AllSportsItems = () => {
     
 
     useEffect (()=>{
-        fetch (`http://localhost:5000/api/products`)
+        fetch("https://sports-for-fitness-server.onrender.com/api/products")
         .then ((res)=>res.json())
         .then ((data)=>{
           console.log("Fetched products:", data);
